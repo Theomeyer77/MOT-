@@ -1,0 +1,34 @@
+Package: motrack
+Type: Package
+Title: Tools for Multiple Object Tracking experiments
+Version: 0.3.0
+Authors@R: c(
+  person("Jiri", "Lukavsky", , "lukavsky@praha.psu.cas.cz", c("aut", "cre"), 
+    comment = c(ORCID = "0000-0002-1082-229X"))
+  )
+Description: For MOT experiments, you need to prepare trajectories, which objects
+    later follow. This set of tools helps with random generation of trajectories, 
+    visualizing for inspection and adding simple physics like bouncing. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    circular,
+    dplyr,
+    ggforce,
+    ggplot2,
+    magrittr,
+    tibble,
+    tidyr,
+    animation,
+    readr,
+    stringr,
+    rlang (>= 0.1.2),
+    png,
+    grid,
+    purrr,
+    tidyselect
+Suggests: 
+    testthat,
+    roxygen2
